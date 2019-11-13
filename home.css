@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html{
+   background-color: #EAEAEA;
+}
+
+img{
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%; 
+}   
+
+div.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+
+}
+
+div.container aside {
+    background-color: rgba(194, 194, 194, 0.61);
+}
+
+a:hover,
+a:visited{
+    color: black;
+}
+
+li{
+    
+    list-style-type: none;
+}
