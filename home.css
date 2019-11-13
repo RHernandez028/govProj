@@ -16,9 +16,7 @@ img {
 }
 
 div.container {
-  margin-left: auto;
-  margin-right: auto;
-  width: 80%;
+  width: 100%;
   display: grid;
   grid-template-columns: 1fr 3fr;
 }
@@ -26,6 +24,7 @@ div.container {
 div.container aside {
   background-color: rgba(194, 194, 194, 0.61);
   padding-top: 10px;
+
 }
 
 aside > h1 {
@@ -53,7 +52,13 @@ li {
 }
 
 div.paragraphs {
-  padding: 15px 15px;
+width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  /* width: 100%;
+  margin-left: auto;
+  margin-right: auto; */
+  /* padding: 15px 15px; */
 }
 
 div.paragraphs h1 {
@@ -65,5 +70,6 @@ div.paragraphs h2 {
 }
 
 div.paragraphs p {
+  
   line-height: 25px;
 }
